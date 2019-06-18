@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h5 {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 
 }
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h5 {
 .section__text{
     font-family: 'Kaushan Script', cursive;
     font-size: 14px;
-    color: #999;    
+    color: #151515;    
 }
 
 /* About */
@@ -174,11 +174,14 @@ h1, h2, h3, h4, h5, h5 {
 .about{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 
 .about__item{
     width: 375px;
-    background-color: #e94709;
+    position: relative;
+    
+    background-color: #969696;
 }
 
 .about__item:hover .about__img {
@@ -200,7 +203,7 @@ h1, h2, h3, h4, h5, h5 {
 
 .about__img img{
     display: block;
-    transition: opacity .1s linear;
+    transition: opacity .2s linear;
 }
 
 .about__text{
@@ -212,7 +215,6 @@ h1, h2, h3, h4, h5, h5 {
     font-weight: 700;
     text-align: center;
     opacity: 0;
-
     position: absolute;
     top: 50%;
     left: 0;
@@ -222,8 +224,19 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 
+/* History */
+.history{
+    background-color: #141414;
+}
 
-
+.info{
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
 
 
 
